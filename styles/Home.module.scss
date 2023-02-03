@@ -1,0 +1,106 @@
+
+.landingpage {
+  width: 100%;
+  margin: 60px auto;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+.about{
+  width: 100%;
+  margin: 60px auto;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  width: 80%;
+}
+.welcome {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 80%;
+}
+// .element {
+//   background-color: white !important;
+// }
+.welcomeimg{
+  width: 100%;
+}
+.title{
+  background-color: black !important;
+}
+.welcome h4 {
+  margin: 30px 0;
+  font-family: Unbounded;
+  
+  }
+  .welcome h1 {
+    margin: 5px 0;
+    font-family: Unbounded;
+    
+    }
+
+.landinginfos {
+margin: 60px 0;
+}
+
+.landinginfos h2 {
+  text-align: center;
+}
+
+
+.coursespage{
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+flex-wrap: wrap;
+
+  align-items: center;
+ /* text-align: left; */
+}
+
+
+.coursescards{
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+
+  
+}
+@media screen and (max-width:1000px) {
+  .landingpage {
+    width: 100%;
+    margin: 60px auto;
+  }
+  
+  .welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  }
+  
+  .welcome h4 {
+  margin: 30px 0;
+  }
+  
+  .welleft {
+  margin-top: 60px;
+  }
+  
+  .welright {
+  margin-top: -195px;
+  margin-left: 40px;
+  }
+  
+  .landinginfos {
+  margin: 60px 0;
+  }
+  
+
+}

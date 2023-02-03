@@ -1,0 +1,47 @@
+// .coursescard {
+
+.img{
+    width: 100%;
+    height: auto;
+}
+.card {
+    background: #181818;
+
+    
+    margin: 50px auto;
+    max-width: 300px;
+    min-height: 400px;
+    text-align: center;
+    border-radius: 18px;
+    padding: 16px;
+    /* box-shadow: 10px 10px 30px #BDBDBD; */
+  }
+  .courcardfoot {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0;
+    font-family: Unbounded;
+
+}
+.title{
+    margin-top: 20px;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-family: Unbounded;
+
+}
+@media screen and (max-width:1000px) {
+    .card {
+        background: #181818;
+    
+        
+        margin: 50px auto;
+        max-width: 300px;
+        min-height: 350px;
+        text-align: center;
+        border-radius: 18px;
+        padding: 16px;
+        /* box-shadow: 10px 10px 30px #BDBDBD; */
+      }
+}
